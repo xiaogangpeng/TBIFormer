@@ -33,7 +33,7 @@ Prediction Results:
 
 
 ## Prepare Data
-We mostly follow the preprocessing procedure of [MRT](https://github.com/jiashunwang/MRT) for mixing dataset. Due to the mixing has random operations, we have uploaded the mixed dataset and others for your convenience and fair comparision. The datasets can be downloade from [![Google Drive](https://img.shields.io/badge/Google-Drive-blue)](https://xxx). Please prepare your data like this:
+We mostly follow the preprocessing procedure of [MRT](https://github.com/jiashunwang/MRT) for mixing dataset. Due to the mixing has random operations, we have uploaded the mixed dataset and others for your convenience and fair comparision. The datasets can be downloaded from [![Google Drive](https://img.shields.io/badge/Google-Drive-blue)](https://xxx). Please prepare your data like this:
 ```
 project_folder/
 ├── checkpoints/
