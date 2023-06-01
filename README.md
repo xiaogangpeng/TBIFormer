@@ -1,7 +1,12 @@
 # TBIFormer
-### [Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_Trajectory-Aware_Body_Interaction_Transformer_for_Multi-Person_Pose_Forecasting_CVPR_2023_paper.pdf) | [Video](https://) | [Project Page](http://xiaogangpeng.github.io/projects/tbiformer/page.html)
 > Trajectory-Aware Body Interaction Transformer for Multi-Person Pose Forecasting  
 > [Xiaogang Peng](https://xiaogangpeng.github.io/), Siyuan Mao, [Zizhao Wu*](http://zizhao.me)
+
+<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_Trajectory-Aware_Body_Interaction_Transformer_for_Multi-Person_Pose_Forecasting_CVPR_2023_paper.pdf"><img alt="paper" src="https://img.shields.io/badge/Paper-blue?logo=arXiv&logoColor=black"></a> \|
+<a href="http://xiaogangpeng.github.io/projects/tbiformer/page.html"><img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=yellow&logoColor=white"></a> \| 
+<a href="https://pytorch.org/get-started/locally/"><img alt="video" src="https://img.shields.io/badge/Video-red?logo=youtube&logoColor=black"></a> <br>
+
+
 
 ## News
 - [2022/4/20]: Initial code releases. 
@@ -11,9 +16,8 @@
 ## Introduction
 Multi-person pose forecasting remains a challenging problem, especially in modeling fine-grained human body interaction in complex crowd scenarios. Existing methods typically represent the whole pose sequence as a temporal series, yet overlook interactive influences among people based on skeletal body parts. In this paper, we propose a novel Trajectory-Aware Body Interaction Transformer (TBIFormer) for multi-person pose forecasting via effectively modeling body part interactions. Specifically, we construct a Temporal Body Partition Module that transforms all the pose sequences into a Multi-Person Body-Part sequence to retain spatial and temporal information based on body semantics. Then, we devise a Social Body Interaction Self-Attention (SBI-MSA) module, utilizing the transformed sequence to learn body part dynamics for inter- and intra-individual interactions. Furthermore, different from prior Euclidean distance-based spatial encodings, we present a novel and efficient Trajectory-Aware Relative Position Encoding for SBI-MSA to offer discriminative spatial information and additional interactive clues. On both short- and long-term horizons, we empirically evaluate our framework on CMU-Mocap, MuPoTS-3D as well as synthesized datasets (6 ~ 10 persons), and demonstrate that our method greatly outperforms the state-of-the-art methods.
 
-## Method 
-
-Method Pipeline:
+## Overview 
+Pipeline:
 
 <p align='center'>
 <img src="https://xiaogangpeng.github.io/images/TBIFormer_500x300.png" width="720px">
@@ -29,7 +33,7 @@ Prediction Results:
 
 
 ## Prepare Data
-We mostly follow the preprocessing procedure of [MRT](https://github.com/jiashunwang/MRT) for mixing dataset. Due to the mixing has random operations, we have uploaded the mixed dataset and others for your convenience and fair comparision. The datasets can be downloade from [![Google Drive](https://img.shields.io/badge/Google-Drive-blue)](https://drive.google.com/file/d/1HM7pwrT_hxpqgjicAbhCKK45hTvWnC6F/view?usp=sharing). Please prepare your data like this:
+We mostly follow the preprocessing procedure of [MRT](https://github.com/jiashunwang/MRT) for mixing dataset. Due to the mixing has random operations, we have uploaded the mixed dataset and others for your convenience and fair comparision. The datasets can be downloade from [![Google Drive](https://img.shields.io/badge/Google-Drive-blue)](https://xxx). Please prepare your data like this:
 ```
 project_folder/
 ├── checkpoints/
@@ -61,6 +65,10 @@ python train.py
 ```
 python test.py
 ```
+
+## Requirements
+<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch 1.10-ee4c2c?logo=pytorch&logoColor=white"></a> <br>
+<a href="https://pytorch.org/get-started/locally/"><img alt="Python" src="https://img.shields.io/badge/Python 3.7-eeeeee?logo=python&logoColor=black"></a> <br>
 
 ## Acknowledgement
 Many thanks to the previous projects:
