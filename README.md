@@ -67,8 +67,14 @@ python test.py
 ```
 
 ## Requirements
-<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch 1.10-ee4c2c?logo=pytorch&logoColor=white"></a> <br>
+<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch 1.11.0+cu113-ee4c2c?logo=pytorch&logoColor=white"></a> <br>
 <a href="https://pytorch.org/get-started/locally/"><img alt="Python" src="https://img.shields.io/badge/Python 3.7-eeeeee?logo=python&logoColor=black"></a> <br>
+<a href="https://pytorch.org/get-started/locally/"><img alt="Python" src="https://img.shields.io/badge/torch--dct-%200.1.5-blue"> </a> </br>
+<a href="https://pytorch.org/get-started/locally/"><img alt="Python" src="https://img.shields.io/badge/easy--dict-%201.9-blue"> </a> </br>
+<a href="https://pytorch.org/get-started/locally/"><img alt="Python" src="https://img.shields.io/badge/numpy-%201.21.5-blue"> </a> </br>
+<a href="https://pytorch.org/get-started/locally/"><img alt="Python" src="https://img.shields.io/badge/tqdm-%204.64.0-blue"> </a> </br>
+<a href="https://pytorch.org/get-started/locally/"><img alt="Python" src="https://img.shields.io/badge/matplotlib-%203.2.2-blue"> </a> </br>
+
 
 ## Acknowledgement
 Many thanks to the previous projects:
