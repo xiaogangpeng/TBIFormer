@@ -100,3 +100,5 @@ If this work is helpful for your research, please consider citing the following 
 }
 ```
 
+## License
+Our code is under MIT protocol.
