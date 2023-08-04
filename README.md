@@ -5,7 +5,7 @@
 <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Peng_Trajectory-Aware_Body_Interaction_Transformer_for_Multi-Person_Pose_Forecasting_CVPR_2023_paper.pdf"><img alt="paper" src="https://img.shields.io/badge/Paper-blue?logo=arXiv&logoColor=black"></a> \|
 <a href="http://xiaogangpeng.github.io/projects/tbiformer/page.html"><img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=yellow&logoColor=white"></a> \| 
 <a href="https://youtu.be/iyf1kzpRiHs"><img alt="video" src="https://img.shields.io/badge/Video-red?logo=youtube&logoColor=black"></a>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=xiaogangpeng/TBIFormer" width="8%" alt="visitor badge"/>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=xiaogangpeng.TBIFormer" width="8%" alt="visitor badge"/>
 <br>
 
 ## News
