@@ -9,8 +9,8 @@
 <br>
 
 ## News
-- [2022/4/20]: Initial code releases. 
-- [2022/2/28]: Our paper is accepted by CVPR 2023. Thanks to my collaborators！
+- [2023/2/28]: Our paper is accepted by CVPR 2023. Thanks to my collaborators！
+- [2023/4/20]: Initial code releases. 
 
 
 ## Abstract
